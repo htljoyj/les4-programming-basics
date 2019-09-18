@@ -1,10 +1,17 @@
-let number = 7;
+let number = 10;
 
-if(number < 6)
-    console.log('onvoldoende');
-else if (number > 6 && number <= 7)
-    console.log('voldoende');
-else if(number > 7 && number <= 9)
-    console.log('goed');
-else if(number > 9)
-    console.log('uitmuntend');
+if((number % 2) == 0)
+    console.log("even");
+else
+    console.log("oneven");
+
+let str = "programming is not so cool";
+str = str.replace("not", "");
+console .log(str);
+
+let var1 = 1400;
+let var2 = "Ik woon in Naboo";
+if(var1 == var2)
+    console.log("true");
+else
+    console.log("false");
